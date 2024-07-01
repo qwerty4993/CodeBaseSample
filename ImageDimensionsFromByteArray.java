@@ -45,7 +45,7 @@ public class ImageDimensionsFromByteArray {
 
 
     private static byte[] getFileContent() {
-        String imagePath = "/Users/charankumar/Downloads/01_Rechtwinkliges_Dreieck-inverser_Satz.gif"; // Replace with your image file path
+        String imagePath = ""; // Replace with your image file path
 
         try {
             // Read image file to byte array
