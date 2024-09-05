@@ -1,0 +1,33 @@
+Pre-request:
+1. Install corretto-21
+https://docs.aws.amazon.com/corretto/latest/corretto-21-ug/downloads-list.html
+MAC:
+https://corretto.aws/downloads/latest/amazon-corretto-21-x64-macos-jdk.pkg
+
+
+1.	Verify Installation
+After installing Java 8, you can check that it's installed by listing the installed JDKs:
+cmd : /usr/libexec/java_home -V
+2.	Set JAVA_HOME to Java 8
+You need to configure your shell to use Java 8. This involves setting the JAVA_HOME environment variable.
+•	For bash Users
+1)	Edit ~/.bash_profile or ~/.bashrc:
+nano ~/.bash_profile
+2)	Add the following lines:
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+export PATH=$JAVA_HOME/bin:$PATH
+3)	Apply the changes:
+source ~/.bash_profile
+
+•	For zsh Users
+1.	Edit ~/.zshrc:
+nano ~/.zshrc
+2.	Add the following lines:
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+export PATH=$JAVA_HOME/bin:$PATH
+3.	Apply the changes:
+source ~/.zshrc
+3. Verify the Switch
+To ensure you’re using Java 8, check the version:
+java -version
+
