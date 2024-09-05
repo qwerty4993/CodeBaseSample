@@ -11,3 +11,6 @@ Explanation
 
 [LogProcessor2](https://github.com/qwerty4993/CodeBaseSample/blob/develop/LogProcessor2.java)
 Certainly! Below is the equivalent Java code for post-processing log files to extract only the exception class from each log entry. This code reads a log file, applies a regular expression to match and extract the exception class, and writes the processed output to a new file.
+
+[Java-Switch-Version](https://github.com/qwerty4993/CodeBaseSample/blob/develop/Java-Switch-Version)
+How to switch java version from current version to older or higher version
